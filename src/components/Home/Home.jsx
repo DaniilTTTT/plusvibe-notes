@@ -12,7 +12,7 @@ function Home() {
   };
 
   return (
-    <div className='container'>
+    <div className='home-container'>
       <div className="main-section">
         <h1 className='title'>Your Notes With a Beautiful Vibe</h1>
         <h2 className='subtitle'>Your app for taking notes and quickly sharing them with friends.</h2>
