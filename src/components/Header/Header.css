@@ -1,0 +1,46 @@
+.nav-panel {
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22.5px 0px;
+}
+
+.nav-background {
+  background-color: rgb(9, 9, 43);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  width: 50px;
+  height: 40px;
+  margin-right: 7.5px;
+}
+
+.logo-title {
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+
+nav {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.15rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+
+}

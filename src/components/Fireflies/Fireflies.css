@@ -1,0 +1,40 @@
+/* Fireflies.css */
+.fireflies-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -5; 
+
+}
+
+.firefly {
+  position: absolute;
+  left: var(--left);
+  top: var(--top);
+  width: var(--size, 0.5rem);
+  height: var(--size, 0.5rem);
+  border-radius: 50%;
+  background-color: #fffaad; /* Тёплый светлячковый цвет */
+  filter: blur(2px); /* Лёгкое размытие для мягкости свечения */
+  opacity: 0; /* Начальное состояние - прозрачный */
+  animation: blink var(--duration, 8s) infinite;
+  animation-delay: var(--delay, 0s);
+}
+
+/* Ключевые кадры для эффекта мерцания/появления */
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.8);
+  }
+  5%, 15% {
+    opacity: 1;
+    transform: translate(var(--tx, 0), var(--ty, 0)) scale(1.2);
+  }
+  20% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.8);
+  }
+}

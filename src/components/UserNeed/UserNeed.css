@@ -1,0 +1,45 @@
+.userneed-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  margin-top: 20px;
+}
+
+.features, .benefits {
+  width: 490px;
+  height: 380px;
+  background-color: rgb(15, 15, 68);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.features-title, .benefits-title {
+  font-size: 1.3rem;
+  padding: 20px 0px;
+}
+
+.feature, .benefit {
+  display: flex;
+  font-size: 1.1rem;
+  flex-direction: column;
+  width: 400px;
+}
+
+.feature-title, .benefit-title {
+  padding: 10px;
+  display: flex;
+  align-items:self-end;
+  justify-content: center;
+}
+
+.feature-desc, .benefit-desc {
+  color: rgb(187, 187, 187);
+}
+
+.feature-img, .benefit-img {
+  margin-right: 5px;
+}
